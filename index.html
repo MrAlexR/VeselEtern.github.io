@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>S.C. Vesel Etern S.R.L</title>
+    <style>
+	body {
+            background-image: url('fundal.png');
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            background-size: 100% 100%;
+        }
+	.title {
+  	    color: white;
+  	    text-align: center;
+	    font-size: 200%;
+	}
+	.preturi {
+  	    color: white;
+  	    text-align: center;
+	    font-size: 100%;
+	}
+	.choices {
+		text-align: center;
+  	    flex: 1;
+        color: white;
+        width: 20%;
+        border: 1px solid #ccc;
+	}
+    .base {
+	    display: flex;
+        width: 80%;
+        margin: 0 auto;
+	}
+	.details {
+        background-color: red;
+        color: white;
+        padding: 10px 20px;
+        font-size: 16px;
+        border: none;
+        cursor: pointer;
+        border-radius: 5px;
+    }
+    </style>
+</head>
+<body>
+    <div class="title">
+  	<h2>S.C. Vesel Etern S.R.L</h2>
+  	<p>"Vreti nu vreti, tot la noi ajungeti !"</p>
+ 	<img src="lm.png" style="width:100px;height:150px;"> 
+    </div>
+    <div class="base">
+		<div class="choices">
+			<div class="row">
+				<h2>Servicii de baza</h2>
+			</div>
+			<div class="row">
+				<p>Acest pachet ofera servicii de baza special pregatite
+				pentru a fi potrivite pentru a satisface orice stil si confesiune religioasa.</p>
+			</div>
+			<div>
+				<img src="baza.png" style="width:300px;height:200px;"> 
+			</div>
+			<div class="row">
+				<button  class="details" onclick="window.location.href='baza.html'">Detalii</button>
+			</div>
+		</div>
+		<div class="choices">
+			<div class="row">
+				<h2>Servicii premium</h2>
+			</div>
+			<div class="row">
+				<p>This is a simple text.</p>
+			</div>
+			<div>
+				<img src="premium.png" style="width:300px;height:200px;"> 
+			</div>
+			<div class="row">
+				<button class="details" onclick="window.location.href='premium.html'">Detalii</button>
+			</div>
+		</div>
+	</div>
+	<div class="preturi">
+		<h1>Preturile le regasiti in lista de mai jos:</h1>
+		<button class="details" onclick="window.location.href='preturi.html'">Preturi</button>
+		<h1>Contact</h1>
+		<p>Tel: 0747528063</p>
+		<p>@mail: veseleternTM@gmail.com</p>
+		<h1>Ne puteti vizita la orice ora, de luni pana vineri.</h1>
+		<p>Bulevardul Vasile Parvan, Nr. 2</p>
+		<img src="location.png" style="width:600px;height:400px;"> 
+	</div>
+</body>
+</html>
